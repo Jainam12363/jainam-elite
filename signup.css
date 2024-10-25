@@ -1,0 +1,47 @@
+p{
+    
+    font-size: 30px;
+    font-style:italic;
+    color:red;
+}
+.parent{
+    display: flex;
+    background-color: grey;
+    height: 100%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    background-color:white;
+    justify-content: center;
+    align-items: center; 
+    height: 650px;
+    width: 350px;
+}
+form{
+    flex-direction: column;
+    text-align:left;
+}
+label{
+    margin: 10px;
+    font-size: medium;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+    font-size:16px;
+    display: flex;
+    justify-content:center;
+
+}
+button {
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    background-color: rgb(171, 205, 234);
+}
